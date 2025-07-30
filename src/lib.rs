@@ -7,7 +7,7 @@ pub use unicase::UniCase;
 pub use crate::raw::{Challenge, ChallengeFields, Quote};
 
 #[derive(Clone, Hash, Eq, PartialEq, PartialOrd, Ord)]
-pub struct CowStr(Cow<'static, str>);
+pub struct CowStr(pub Cow<'static, str>);
 
 impl Deref for CowStr {
     type Target = Cow<'static, str>;
