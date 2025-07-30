@@ -1,6 +1,6 @@
 [package]
 name = "www_authenticate_parser"
-version = "1.0.0"
+version = "1.0.1"
 description = "A WWW Authenticate Header Parser"
 edition = "2021"
 license-file = "LICENSE"

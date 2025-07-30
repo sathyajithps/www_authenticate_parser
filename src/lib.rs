@@ -4,7 +4,7 @@ use std::ops::{Deref, DerefMut};
 
 pub use unicase::UniCase;
 
-use crate::raw::Challenge;
+pub use crate::raw::{Challenge, ChallengeFields, Quote};
 
 #[derive(Clone, Hash, Eq, PartialEq, PartialOrd, Ord)]
 pub struct CowStr(Cow<'static, str>);
@@ -48,7 +48,7 @@ mod raw {
     use std::mem;
 
     #[derive(Debug, Clone, PartialEq, Eq)]
-    enum Quote {
+    pub enum Quote {
         Always,
         IfNeed,
     }
