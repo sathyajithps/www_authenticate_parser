@@ -8,11 +8,7 @@ readme = "Readme.md"
 homepage = "https://github.com/sathyajithps/www_authenticate_parser"
 repository = "https://github.com/sathyajithps/www_authenticate_parser"
 documentation = "https://docs.rs/www_authenticate_parser"
-keywords = [
-    "www authenticate parser",
-    "www authenticate",
-    "www authenticate parser",
-]
+keywords = ["www", "authenticate", "www_authenticate"]
 categories = ["web-programming"]
 
 
