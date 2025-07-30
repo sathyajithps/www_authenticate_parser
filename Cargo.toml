@@ -1,0 +1,23 @@
+[package]
+name = "www_authenticate_parser"
+version = "1.0.0"
+description = "A WWW Authenticate Header Parser"
+edition = "2021"
+license-file = "LICENSE"
+readme = "Readme.md"
+homepage = "https://github.com/sathyajithps/www_authenticate_parser"
+repository = "https://github.com/sathyajithps/www_authenticate_parser"
+documentation = "https://docs.rs/www_authenticate_parser"
+keywords = [
+    "www authenticate parser",
+    "www authenticate",
+    "www authenticate parser",
+]
+categories = ["web-programming"]
+
+
+[dependencies]
+unicase = "2.8.1"
+
+[lib]
+doctest = false
